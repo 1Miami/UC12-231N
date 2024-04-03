@@ -214,3 +214,52 @@ footer .container{
     }
 
     .menu-conteudo li li a:before {content: '- ';}
+
+    .painel { 
+        box-shadow: inset 1px 1px 4px #999;
+        border-radius: 10px; 
+        box-shadow: 1px 1px 4px #999; 
+    }
+
+.painel h2 {
+     text-shadow: 1px 3px 2px red; 
+     
+    }
+
+    .busca { 
+        border-top-left-radius: 4px; 
+        border-top-right-radius: 4px; 
+    }
+
+    .painel h2 { 
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.8); 
+    }
+
+    .aula1{
+        
+        background: linear-gradient(#f5dcdc, #bebef4);
+    }
+
+    .aula2{
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.painel li:hover { 
+    box-shadow: 0 0 5px #4a4949; 
+    transition: box-shadow 0.7s; 
+}
+
+.painel li:hover { 
+    background: linear-gradient(#dcdcf5, #f4bebe);
+     box-shadow: 0 0 5px #c2baba; transition: 0.7s; 
+    }
+    
+    .painel li:hover { 
+        transform: scale(1.1);
+    }
+
+    .painel li:hover { 
+        transform: scale(1.2) rotate(-3deg); 
+        }
+
+        
